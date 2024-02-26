@@ -1,0 +1,49 @@
+.controls {
+    width: 486px;
+    height: 104px;
+    padding: 32px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input {
+    width: 150px;
+    height: 40px;
+    border-radius: 4%;
+    opacity: 0.5;
+}
+
+.btn-create {
+    width: 120px;
+    height: 40px;
+    border-radius: 4%;
+    border: none;
+    background-color: #4E75FF;
+    color: #fff;
+}
+
+.btn-destroy {
+    width: 120px;
+    height: 40px;
+    border-radius: 4%;
+    border: none;
+    background-color: #FF4E4E;
+    color: #fff;
+}
+
+.btn-create:hover {
+    background-color: #6C8CFF;
+}
+
+.btn-destroy:hover {
+    background-color: #FF7070;
+}
+
+.boxes{
+    padding: 32px;
+    background-color: #F6F6FE;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    flex-wrap: wrap;
+}

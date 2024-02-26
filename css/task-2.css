@@ -1,0 +1,6 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1128px;
+    gap: 24px;
+  }
