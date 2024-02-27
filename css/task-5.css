@@ -1,22 +1,15 @@
 .widget {
-  
   width: 345px;
   height: 280px;
-}
-
-.text {
   padding-top: 100px;
-  margin-bottom: 16px;
-  padding-left: 88px;
-  padding-right: 88px;
+  padding-left: 200px;
 }
 
-.btn-color {
-  margin-left: 88px;
+.change-color {
   width: 148px;
   height: 40px;
-  color: #FFFFFF;
-  background-color: #4E75FF;
+  color: #ffffff;
+  background-color: #4e75ff;
   border-radius: 4%;
   border: none;
 }
