@@ -1,49 +1,66 @@
-.controls {
-    width: 486px;
-    height: 104px;
-    padding: 32px;
-    justify-content: space-between;
-    align-items: center;
+.container {
+  display: flex;
+  gap: 10px;
+  background-color: #f6f6fe;
+  padding: 32px;
+  width: 486px;
+  margin-bottom: 16px;
 }
-
-.input {
-    width: 150px;
-    height: 40px;
-    border-radius: 4%;
-    opacity: 0.5;
+.input-numbers {
+  width: 150px;
+  height: 40px;
+  border-color: transparent;
+  border-radius: 8px;
+  border: 1px solid #808080;
+  text-align: center;
+  background-color: #f6f6fe;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
 }
-
 .btn-create {
-    width: 120px;
-    height: 40px;
-    border-radius: 4%;
-    border: none;
-    background-color: #4E75FF;
-    color: #fff;
+  background-color: #4e75ff;
+  width: 120px;
+  height: 40px;
+  border-color: transparent;
+  border-radius: 8px;
+  padding: 8px 16px;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .btn-destroy {
-    width: 120px;
-    height: 40px;
-    border-radius: 4%;
-    border: none;
-    background-color: #FF4E4E;
-    color: #fff;
+  background-color: #ff4e4e;
+  width: 120px;
+  height: 40px;
+  border-color: transparent;
+  border-radius: 8px;
+  padding: 8px 16px;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
-.btn-create:hover {
-    background-color: #6C8CFF;
-}
-
-.btn-destroy:hover {
-    background-color: #FF7070;
-}
-
-.boxes{
-    padding: 32px;
-    background-color: #F6F6FE;
-    display: flex;
-    flex-direction: row;
-    gap: 16px;
-    flex-wrap: wrap;
+.boxes {
+  padding: 32px;
+  background-color: #f6f6fe;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  flex-wrap: wrap;
 }
