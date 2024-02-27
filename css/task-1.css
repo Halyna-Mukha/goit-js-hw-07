@@ -3,7 +3,7 @@
   flex-direction: column;
   gap: 24px;
   width: 440px;
-  border-radius: 10%;
+  border-radius: 8px;
   margin: 24px;
 }
 
@@ -11,21 +11,22 @@
   padding-left: 16px;
 }
 
-.item {
+.item-list {
   display: flex;
   flex-direction: column;
-  background-color: #F6F6FE;
-  border-radius: 5%;
+  background-color: #f6f6fe;
+  border-radius: 8px;
 }
 .menu-title-list {
   display: flex;
   flex-direction: column;
   border: 1px solid gray;
-  border-radius: 5%;
+  border-radius: 8px;
   width: 100%;
-  padding-bottom: 8px;
+  height: 40px;
   margin-bottom: 8px;
   padding-left: 8px;
+  padding-top: 4px;
 }
 
 .menu-item {
