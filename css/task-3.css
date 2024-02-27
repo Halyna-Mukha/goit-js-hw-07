@@ -10,3 +10,10 @@
 .title-text {
   font-size: 24px;
 }
+.container {
+  padding-top: 24px;
+  padding-left: 24px;
+  width: 408px;
+  height: 136px;
+  background-color: #ffffff;
+}
