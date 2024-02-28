@@ -15,13 +15,20 @@ const images = [
 
 
 const galleryEl = document.querySelector('.gallery');
-const pictures = images.map(element => {
+const pictureEl = document.createDocumentFragment();
+
+images.forEach(element => {
+
   const liEl = document.createElement('li');
   const imageEl = document.createElement('img');
-  liEl.classList.add('item')
-  imageEl.classList.add('item')
+
+  liEl.classList.add('item');
+  imageEl.classList.add('item');
   imageEl.src = element.url;
   imageEl.alt = element.alt;
+
   liEl.appendChild(imageEl);
-  galleryEl.appendChild(liEl);
+  pictureEl.appendChild(liEl);
 });
+
+galleryEl.appendChild(pictureEl); 

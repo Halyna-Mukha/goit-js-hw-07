@@ -1,11 +1,11 @@
 .gallery {
-    display: flex;
-    flex-wrap: wrap;
-    width: 1128px;
-    gap: 24px;
-  }
-  .item {
-    width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 1128px;
+  gap: 24px;
+}
+.item {
+  width: 300px;
   height: 200px;
-    list-style-type: none;
-  }
+  list-style-type: none;
+}
